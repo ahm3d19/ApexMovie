@@ -7,6 +7,7 @@ require Pod::Executable.execute_command('node', ['-p',
 
 platform :ios, min_ios_version_supported
 prepare_react_native_project!
+# pod 'glog', :modular_headers => true  # Add this line
 
 # If you are using a `react-native-flipper` your iOS build will fail when `NO_FLIPPER=1` is set.
 # because `react-native-flipper` depends on (FlipperKit,...) that will be excluded
@@ -41,7 +42,10 @@ target 'ApexMovie' do
 
   target 'ApexMovieTests' do
     inherit! :complete
+    
     # Pods for testing
+    # Pods for your project
+
   end
 
   post_install do |installer|
