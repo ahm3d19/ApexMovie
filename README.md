@@ -1,49 +1,43 @@
-Sure, here's a markdown code snippet for your GitHub README.md file for the ApexMovie project:
 
-```markdown
 # ApexMovie
 
 Welcome to ApexMovie! This project aims to provide users with a streamlined platform for accessing information about various movies, with a particular focus on sci-fi movies and trending releases. Leveraging RESTful API endpoints, ApexMovie fetches data efficiently and presents it in a user-friendly manner. The project integrates RapidAPI for seamless movie searches, enhancing the overall user experience.
 
-## Features
+## Demo Video
 
-- **Movie Categories**: ApexMovie categorizes movies into different genres, prominently featuring sci-fi movies and trending releases. Users can easily explore these categories to discover new and exciting content.
+https://github.com/ahm3d19/ApexMovie/assets/111050554/335dec10-0417-48e2-b299-490cd9b9d4f4
 
-- **Search Functionality**: With the integration of RapidAPI, ApexMovie offers a robust search functionality, allowing users to search for specific movies based on various criteria such as title, genre, or cast members. This feature enhances user convenience and ensures quick access to desired content.
+# Features
 
-- **Scalable Codebase**: Built with scalability in mind, ApexMovie utilizes best practices in software development to ensure that the codebase can accommodate future enhancements and expansions. Modular, reusable components make it easy to maintain and extend the project over time.
+## Movie Categories: 
 
-## Technologies Used
+ApexMovie categorizes movies into different genres, prominently featuring sci-fi movies and trending releases. Users can easily explore these categories to discover new and exciting content.
 
-- **RESTful API**: ApexMovie leverages RESTful API endpoints to fetch movie data efficiently, ensuring fast and reliable data retrieval.
+## Search Functionality: 
 
-- **RapidAPI Integration**: RapidAPI is seamlessly integrated into the project to provide powerful search capabilities, tapping into its extensive database of movie-related information.
+With the integration of RapidAPI, ApexMovie offers a robust search functionality, allowing users to search for specific movies based on various criteria such as title, genre, or cast members. This feature enhances user convenience and ensures quick access to desired content.
 
-- **Modular Architecture**: The codebase is structured using a modular architecture, with reusable components that promote code maintainability and extensibility.
+## Scalable Codebase: 
 
-## Getting Started
+Built with scalability in mind, ApexMovie utilizes best practices in software development to ensure that the codebase can accommodate future enhancements and expansions. Modular, reusable components make it easy to maintain and extend the project over time.
 
-To get started with ApexMovie, simply clone the repository and follow the setup instructions provided in the README file. Ensure that you have the necessary dependencies installed, and then run the application locally to start exploring sci-fi movies, trending releases, and more.
+# Technologies Used
 
-## Contributing
+## RESTful API: 
 
-Contributions to ApexMovie are welcome! Whether you're interested in adding new features, fixing bugs, or improving documentation, your contributions help make the project better for everyone. Please refer to the CONTRIBUTING.md file for guidelines on how to contribute effectively.
+ApexMovie leverages RESTful API endpoints to fetch movie data efficiently, ensuring fast and reliable data retrieval.
 
-## License
+## RapidAPI Integration: 
 
-ApexMovie is licensed under the MIT License. See the LICENSE file for more details.
+RapidAPI is seamlessly integrated into the project to provide powerful search capabilities, tapping into its extensive database of movie-related information.
 
----
+## Modular Architecture: 
 
-Explore your favorite sci-fi movies and trending releases with ApexMovie. Discover, search, and enjoy a seamless movie-watching experience today!
-```
-
-You can copy this code and paste it into your README.md file on GitHub. Feel free to customize it further as needed!
-
-# ApexMovie
+The codebase is structured using a modular architecture, with reusable components that promote code maintainability and extensibility.
 
 # Getting Started
-  
+
+To get started with ApexMovie, simply clone the repository and follow the setup instructions provided in the README file. Ensure that you have the necessary dependencies installed, and then run the application locally to start exploring sci-fi movies, trending releases, and more.
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 ## Step 1: Install NPM Modules
@@ -93,6 +87,14 @@ npm run ios
 # OR using Yarn
 yarn ios
 ```
+
+## Contributing
+
+Contributions to ApexMovie are welcome! Whether you're interested in adding new features, fixing bugs, or improving documentation, your contributions help make the project better for everyone. Please refer to the CONTRIBUTING.md file for guidelines on how to contribute effectively.
+
+## License
+
+ApexMovie is licensed under the MIT License. See the LICENSE file for more details.
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
